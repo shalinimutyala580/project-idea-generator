@@ -21,8 +21,8 @@ import LearningModule from "./pages/LearningModule";
 import Profile from "./pages/Profile";
 import CodeSandbox from "./pages/Sandbox/CodeSandbox";
 import Interview from "./pages/Interview/Interview";
-import NotFound from "./pages/NotFound";
 import ProtectedRoute from "./components/ProtectedRoute";
+import NotFound from "./pages/Notfound";
 
 function AppRoutes() {
   const { user, loading } = useAuth();
